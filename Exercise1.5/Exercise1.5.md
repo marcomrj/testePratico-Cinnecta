@@ -1,14 +1,14 @@
 # Exercício 1.5
 ## Dado o código Python 3 abaixo e sua respectiva saída de terminal, responda:
 ##### Código:
-```
+~~~Python
 1. Import sys
 2. v1_all_squares_to_100000000 = ( i * i for i in range(1,100000001))
 3. v2_all_squares_to_100000000 = [ i * i for i in range(1,100000001)]
 4. v1s = sys.getsizeof(v1_all_squares_to_100000000)
 5. v2s = sys.getsizeof(v2_all_squares_to_100000000)
 6. print(f'{v1s}\n{v2s}')
-```
+~~~
 ##### Saída:
 ```
 112

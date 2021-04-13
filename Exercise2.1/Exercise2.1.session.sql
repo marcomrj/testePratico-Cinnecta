@@ -25,4 +25,11 @@ INSERT INTO employees VALUES (8, 'Grace Mallory', 41, 'Lourdes', 8040);
 
 
 /* Main Function */
+select * from employees where salary < (select salary from employees where id=1);
+select * from employees where salary < (select salary from employees where id=2);
+select * from employees where salary < (select salary from employees where id=3);
+select * from employees where salary < (select salary from employees where id=4);
 select * from employees where salary < (select salary from employees where id=5);
+select * from employees where salary < (select salary from employees where id=6);
+select * from employees where salary < (select salary from employees where id=7);
+select * from employees where salary < (select salary from employees where id=8);
